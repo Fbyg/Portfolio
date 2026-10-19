@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Portfolio de Alex Ferrer, estudiante de 2º de DAM con enfoque en desarrollo frontend y UI/UX.">
   <link rel="shortcut icon" href="/img/image.png" type="image/x-icon">
   <title>Alex Ferrer · Desarrollador de Aplicaciones Multiplataforma</title>
   <link
@@ -12,12 +13,14 @@
   <link rel="stylesheet" href="/estilo/estilos.css">
   <script>document.documentElement.classList.add("js")</script>
 </head>
+
 <body>
   <div class="bar" aria-hidden="true"></div>
   <div class="orbs" aria-hidden="true"><i></i><i></i></div>
   <nav>
     <a class="logo" href="#inicio">Alex Ferrer Collantes</a>
-    <div class="links"><a href="#perfil">Perfil</a>
+    <div class="links">
+      <a href="#perfil">Perfil</a>
       <a href="#competencias">Competencias</a>
       <a href="#proyectos">Proyectos</a>
       <a href="#certificaciones">Certificaciones</a>
@@ -25,33 +28,37 @@
       <a href="#contacto">Contacto</a>
     </div>
   </nav>
+
   <header id="inicio">
     <span class="eyebrow">Desarrollador de Aplicaciones Multiplataforma</span>
-    <h1>Alex Ferrer </h1>
+    <h1>Alex Ferrer</h1>
     <p class="lead">Estudiante de 2º de DAM que combina desarrollo con React, HTML, CSS, Java con un enfoque muy
       exigente en UI/UX: me importa tanto que la aplicación funcione como que se sienta bien al usarla.</p>
-    <div class="cta"><a class="btn solid" href="#contacto">Contactar</a><a class="btn" target="_blank"
-        href="https://github.com/Fbyg">Ver proyectos</a>
-      <a class="btn" href="/Curriculum.pdf" download="Alex_Ferrer_Collantes CV">Descargar CV</a>
+    <div class="cta">
+      <a class="btn solid" href="#contacto">Contactar</a>
+      <a class="btn" target="_blank" rel="noopener noreferrer" href="https://github.com/Fbyg">Ver proyectos</a>
+      <a class="btn" href="/Curriculum.pdf" download="Alex_Ferrer_Collantes_CV.pdf">Descargar CV</a>
     </div>
     <div class="stats">
       <div><b>2º</b><span>Ciclo DAM</span></div>
       <div><b>6</b><span>Certificaciones: Oracle, Linux y Scrum</span></div>
-      <div><b>4 años</b><span>Formandome como programador y diseñador de UX/UI</span></div>
+      <div><b>4 años</b><span>Formándome como programador y diseñador de UX/UI</span></div>
     </div>
     <div class="photo">
-      <div class="frame">AF<img class="foto" src="/img/logo-de-afc.png" title="Imagen temporal" alt="Foto de perfil de Alex Ferrer"
+      <div class="frame">AF<img class="foto" src="/img/logo-de-afc.png" alt="Foto de perfil de Alex Ferrer"
           onerror="this.remove()"></div>
     </div>
   </header>
+
   <div class="marquee" aria-hidden="true">
     <div class="track">
       <span>JavaScript</span><span>Java</span>
       <span>MySQL</span><span>Git</span><span>Linux</span>
       <span>Scrum</span><span>HTML</span><span>CSS</span>
-      <span>UI/ UX</span>
+      <span>UI/UX</span>
     </div>
   </div>
+
   <section id="perfil">
     <span class="kicker">Perfil</span>
     <h2>Cómo trabajo</h2>
@@ -60,6 +67,7 @@
       funcionan las cosas antes de tocarlas. Las artes marciales que practico me han enseñado constancia, respeto y
       calma bajo presión.</p>
   </section>
+
   <section id="competencias">
     <span class="kicker">Competencias</span>
     <h2>Lo que sé hacer</h2>
@@ -97,35 +105,44 @@
       </article>
     </div>
   </section>
+
   <section id="proyectos">
     <span class="kicker">Proyectos</span>
     <h2>Trabajo seleccionado</h2>
     <div class="grid">
-      <article class="card proj"><img src="/img/a-weather-logo.png" alt="Captura de Nombre del proyecto 1">
-        <h3>Web de meteorologia</h3>
-        <p>Web de meteorologia que indica el tiempo en tiempo real</p>
+      <article class="card proj">
+        <img src="/img/a-weather-logo.png" alt="Captura de la web de meteorología">
+        <h3>Web de meteorología</h3>
+        <p>Web de meteorología que indica el tiempo en tiempo real.</p>
         <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        <div class="row"><a class="btn solid" href="https://github.com/Fbyg/App-de-tiempo-a-mi-estilo">GitHub</a><a
-            class="btn" href="https://app-de-tiempo.vercel.app/">Demo</a></div>
+        <div class="row">
+          <a class="btn solid" href="https://github.com/Fbyg/App-de-tiempo-a-mi-estilo">GitHub</a>
+          <a class="btn" href="https://app-de-tiempo.vercel.app/">Demo</a>
+        </div>
       </article>
-      <article class="card proj"><img src="/img/logo-Keycloak.png" alt="Captura de Nombre del proyecto 2">
+      <article class="card proj">
+        <img src="/img/logo-Keycloak.png" alt="Logo de Keycloak del proyecto de login">
         <h3>Login con Keycloak</h3>
-        <p>Este proyecto es un dashboard de usuario desarrollado con Flask y JavaScript Vanilla, utilizando
-          autenticación basada en Keycloak mediante OAuth2 / OpenID Connect..</p>
+        <p>Dashboard de usuario desarrollado con Flask y JavaScript Vanilla, con autenticación basada en Keycloak
+          mediante OAuth2 / OpenID Connect.</p>
         <div class="chips"><span>Python</span><span>MySQL</span><span>Git</span><span>Flask</span></div>
         <div class="row"><a class="btn solid" href="https://github.com/Fbyg/main">GitHub</a></div>
       </article>
-      <article class="card proj"><img src="/img/image.png" alt="Captura de Portfolio personal">
+      <article class="card proj">
+        <img src="/img/image.png" alt="Captura del portfolio personal">
         <h3>Portfolio personal</h3>
         <p>Web responsive con diseño propio, modo claro/oscuro y cuidado especial en la UI.</p>
         <div class="chips"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
-        <div class="row"><a class="btn solid" href="https://github.com/Fbyg/Portfolio">GitHub</a><a class="btn"
-            href="https://portfolio-alex-amber.vercel.app/">Demo</a></div>
+        <div class="row">
+          <a class="btn solid" href="https://github.com/Fbyg/Portfolio">GitHub</a>
+          <a class="btn" href="https://portfolio-alex-amber.vercel.app/">Demo</a>
+        </div>
       </article>
     </div>
-    <p class="intro" style="margin-top:2rem"><a class="more" style="border-bottom:1px solid var(--accent)"
+    <p class="intro" style="margin-top:2rem"><a class="more" target="_blank" rel="noopener noreferrer"
         href="https://github.com/Fbyg">Ver todos en GitHub →</a></p>
   </section>
+
   <section id="certificaciones">
     <span class="kicker">Certificaciones</span>
     <h2>Formación acreditada</h2>
@@ -133,40 +150,43 @@
       <article class="card"><small>Oracle</small>
         <h3>Java Foundations</h3>
         <p>Fundamentos de programación en Java y orientación a objetos.</p>
-        <a class="btn-certificado" href="/certificados/Java_Foundations.pdf"
-          title="Descargar Certificado Java POO">Certificado Java Foundations</a>
+        <a class="btn-certificado" href="/certificados/Java_Foundations.pdf" download
+          data-tooltip="Descargar PDF">Certificado Java Foundations</a>
       </article>
       <article class="card"><small>Oracle</small>
         <h3>Java Fundamentals</h3>
         <p>Bases del lenguaje Java y de su ecosistema.</p>
-        <a class="btn-certificado" href="/certificados/Java_Fundamental.pdf"
-          title="Descargar Certificado Java Essentials">Certificado Java Essentials</a>
+        <a class="btn-certificado" href="/certificados/Java_Fundamental.pdf" download
+          data-tooltip="Descargar PDF">Certificado Java Essentials</a>
       </article>
       <article class="card"><small>Oracle</small>
         <h3>Database Foundations</h3>
         <p>Conceptos fundamentales de bases de datos relacionales y SQL.</p>
-        <a class="btn-certificado" href="/certificados/Database_Foundation.pdf"
-          title="Descargar Certificado Base de Datos Relacionales Essentials">Certificado Base de datos relacionales</a>
+        <a class="btn-certificado" href="/certificados/Database_Foundation.pdf" download
+          data-tooltip="Descargar PDF">Certificado Base de datos relacionales</a>
       </article>
       <article class="card"><small>Oracle</small>
         <h3>Database Design</h3>
         <p>Modelado y diseño de bases de datos relacionales.</p>
-        <a class="btn-certificado" href="/certificados/Database_Design.pdf"
-          type="Descargar Certificado Bases de Datos Relacionales">Certificado Bases de datos</a>
+        <a class="btn-certificado" href="/certificados/Database_Design.pdf" download
+          data-tooltip="Descargar PDF">Certificado Bases de datos</a>
       </article>
       <article class="card"><small>LPI</small>
         <h3>Linux Essentials</h3>
         <p>Fundamentos del sistema operativo Linux y su línea de comandos.</p>
-        <a class="btn-certificado" href="/certificados/LinuxEssentials.pdf"
-          title="Descargar Certificado Linux Essentials">Certificado Linux Essentials</a>
+        <a class="btn-certificado" href="/certificados/LinuxEssentials.pdf" download
+          data-tooltip="Descargar PDF">Certificado Linux Essentials</a>
       </article>
       <article class="card"><small>CertiProf</small>
         <h3>Scrum Foundation Professional Certificate (SFPC)</h3>
         <p>Fundamentos del marco ágil Scrum y del trabajo en equipo.</p>
-        <a class="btn-certificado" download="#" title="Descargar Certificado Scrum">Certificado Scrum</a>
+        <!-- TODO: cambia la ruta por la de tu PDF de Scrum -->
+        <a class="btn-certificado" href="/certificados/Scrum.pdf" download
+          data-tooltip="Descargar PDF">Certificado Scrum</a>
       </article>
     </div>
   </section>
+
   <section id="formacion">
     <div class="two">
       <div>
@@ -195,55 +215,81 @@
       </div>
     </div>
   </section>
+
   <section id="contacto" class="contact">
     <div class="in">
       <span class="kicker">Contacto</span>
       <h2>Hablemos de prácticas y oportunidades</h2>
       <p class="intro" style="margin:0 auto">Estoy disponible para prácticas y colaboraciones en desarrollo de
         aplicaciones y diseño de interfaces.</p>
-      <div class="cta" style="justify-content:center"><a class="btn solid" href="#">WhatsApp</a><a class="btn"
-          href="mailto:alexferrercollantes@gmail.com">Enviar email</a></div>
+      <div class="cta" style="justify-content:center">
+        <!-- TODO: cambia por https://wa.me/34XXXXXXXXX con tu número -->
+        <a class="btn solid" href="#">WhatsApp</a>
+        <a class="btn" href="mailto:alexferrercollantes@gmail.com">Enviar email</a>
+      </div>
     </div>
   </section>
+
   <footer>
     <p>© 2026 Alex Ferrer · Todos los derechos reservados</p>
   </footer>
+
   <script>
-      (function () {
-        var sel = ["section>.kicker", "section h2", "section>.intro", "section .grid>*", ".tl>div", ".two>div>.kicker", ".two>div>h2", ".two>div>.intro", ".contact .in>*"];
-        var els = document.querySelectorAll(sel.join(","));
-        els.forEach(function (el) {
-          el.classList.add("reveal");
-          var sib = el.parentElement.children, i = Array.prototype.indexOf.call(sib, el);
-          el.style.setProperty("--d", (Math.min(i, 6) * 0.09) + "s");
-        });
-        if (!("IntersectionObserver" in window)) { els.forEach(function (e) { e.classList.add("in") }); return; }
-        var io = new IntersectionObserver(function (list) {
-          list.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } });
-        }, { threshold: .12, rootMargin: "0px 0px -6% 0px" });
-        els.forEach(function (e) { io.observe(e) });
-      })();
+    (function () {
+      var sel = ["section>.kicker", "section h2", "section>.intro", "section .grid>*", ".tl>div", ".two>div>.kicker", ".two>div>h2", ".two>div>.intro", ".contact .in>*"];
+      var els = document.querySelectorAll(sel.join(","));
+      els.forEach(function (el) {
+        el.classList.add("reveal");
+        var sib = el.parentElement.children, i = Array.prototype.indexOf.call(sib, el);
+        el.style.setProperty("--d", (Math.min(i, 6) * 0.09) + "s");
+      });
+      if (!("IntersectionObserver" in window)) { els.forEach(function (e) { e.classList.add("in") }); return; }
+      var io = new IntersectionObserver(function (list) {
+        list.forEach(function (x) { if (x.isIntersecting) { x.target.classList.add("in"); io.unobserve(x.target); } });
+      }, { threshold: .12, rootMargin: "0px 0px -6% 0px" });
+      els.forEach(function (e) { io.observe(e) });
+    })();
   </script>
   <script>
     (function () {
       var rm = matchMedia("(prefers-reduced-motion:reduce)").matches, fine = matchMedia("(hover:hover)").matches;
-      // Nombre letra a letra
+
+      // Nombre letra a letra, agrupado por palabras para que no se parta una palabra a mitad
       var h = document.querySelector("header h1");
       if (h) {
-        var t = h.textContent; h.setAttribute("aria-label", t); h.textContent = "";
-        t.split("").forEach(function (c, i) { var e = document.createElement("span"); e.className = "ch"; e.setAttribute("aria-hidden", "true"); e.style.setProperty("--i", i); e.textContent = c; h.appendChild(e); });
+        var t = h.textContent.trim(), n = 0;
+        h.setAttribute("aria-label", t);
+        h.textContent = "";
+        t.split(" ").forEach(function (w, wi) {
+          if (wi) { h.appendChild(document.createTextNode(" ")); n++; }
+          var word = document.createElement("span");
+          word.className = "word";
+          word.setAttribute("aria-hidden", "true");
+          w.split("").forEach(function (c) {
+            var e = document.createElement("span");
+            e.className = "ch";
+            e.style.setProperty("--i", n++);
+            e.textContent = c;
+            word.appendChild(e);
+          });
+          h.appendChild(word);
+        });
       }
+
       // Marquesina infinita
       var tr = document.querySelector(".marquee .track");
       if (tr) { tr.innerHTML += tr.innerHTML; }
+
       // Barra de progreso
       var bar = document.querySelector(".bar");
       function prog() { var d = document.documentElement, m = d.scrollHeight - innerHeight; bar.style.transform = "scaleX(" + (m > 0 ? scrollY / m : 0) + ")"; }
       addEventListener("scroll", prog, { passive: true }); prog();
+
       // Cifras que cuentan
       if (!rm) {
         document.querySelectorAll(".stats b").forEach(function (b) {
-          var m = b.textContent.match(/^(\d+)(.*)$/); if (!m) return; var n = +m[1], suf = m[2], done = false; b.textContent = "0" + suf;
+          var m = b.textContent.match(/^(\d+)(.*)$/); if (!m) return;
+          var n = +m[1], suf = m[2], done = false; b.textContent = "0" + suf;
           new IntersectionObserver(function (l, o) {
             if (l[0].isIntersecting && !done) {
               done = true; o.disconnect(); var t0 = performance.now();
@@ -252,7 +298,8 @@
           }, { threshold: .6 }).observe(b);
         });
       }
-      // Foco, inclinación y botones magnéticos
+
+      // Foco e inclinación de las tarjetas
       if (fine && !rm) {
         document.querySelectorAll(".card").forEach(function (c) {
           c.addEventListener("mousemove", function (e) {
@@ -263,10 +310,15 @@
           c.addEventListener("mouseleave", function () { c.style.setProperty("--rx", "0deg"); c.style.setProperty("--ry", "0deg"); });
         });
       }
+
       // Enlace activo del menú
       var links = document.querySelectorAll("nav .links a[href^='#']");
-      var io = new IntersectionObserver(function (l) { l.forEach(function (x) { if (x.isIntersecting) { links.forEach(function (a) { a.classList.toggle("on", a.getAttribute("href") === "#" + x.target.id); }); } }); }, { rootMargin: "-45% 0px -50% 0px" });
-      document.querySelectorAll("section[id]").forEach(function (s) { io.observe(s); });
+      var spy = new IntersectionObserver(function (l) {
+        l.forEach(function (x) {
+          if (x.isIntersecting) { links.forEach(function (a) { a.classList.toggle("on", a.getAttribute("href") === "#" + x.target.id); }); }
+        });
+      }, { rootMargin: "-45% 0px -50% 0px" });
+      document.querySelectorAll("section[id]").forEach(function (s) { spy.observe(s); });
     })();
   </script>
 </body>
