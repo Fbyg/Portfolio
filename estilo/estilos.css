@@ -153,6 +153,7 @@ h1 {
   display: inline-block;
   padding: .85rem 1.8rem;
   border: 1px solid var(--ink);
+  border-radius: 6px;
   font-size: .76rem;
   letter-spacing: .18em;
   text-transform: uppercase;
@@ -841,6 +842,11 @@ header>.photo {
 
 .photo:hover::after {
   transform: translate(5px, 5px)
+}
+
+::selection {
+  background: #4b3c3867;
+  color: #9bb4a3;
 }
 
 @media(max-width:700px) {
